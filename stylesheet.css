@@ -1,0 +1,53 @@
+[class*="col-"] {
+width: 100%;
+}
+@media only screen and (min-width: 768px) {
+[class*="col-"] {
+float: left;			
+padding: 10px;			
+}
+.col-2 {width: 16.66%;}		
+.col-9 {width: 75%;}
+body background-color: red;		
+}
+body {
+font-size: 18px;
+color: black;
+background-color: rgb(35, 128, 215);
+margin-right: 10px;
+margin-left: 10px;
+}
+header {
+background-color: #130756;
+
+width: 100%;
+height: 200px;
+padding: 20px 20px 20px 20px;
+font-family: 'Hanalei Fill', cursief; 
+text-align: center;
+}
+footer {
+background-color: #19588cc8;
+width: 100%;
+height: 100px;
+padding: 20px 20px 20px 20px;
+text-align: center;
+clear: left;
+}
+ul{ padding-left: 15px;
+}
+img {
+float: right;
+width: 25%;
+margin-right: 5px;
+border-radius: 5px;
+border: backdrop;
+padding: 5px;
+}
+h1 {
+font-family: 'Yellowtail', sans-serif;
+background-image: url('afbeeldingen/Skyline.jpg');
+}
+h3 {
+font-family: 'Yellowtail', sans-serif; 
+}
